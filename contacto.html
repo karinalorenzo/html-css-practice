@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto – Factoría</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="menu">
+        <div class="menu__left">
+          <img
+            src="src/images/F5Logo.jpg"
+            alt="Logo Factoría"
+            class="menu__logo"
+          />
+          <h1 class="menu__title">Factoría</h1>
+        </div>
+
+        <ul class="menu__links">
+          <li><a href="listado.html" class="menu__link">Películas</a></li>
+          <li><a href="#" class="menu__link">Series</a></li>
+          <li><a href="#" class="menu__link">Lo más visto</a></li>
+          <li><a href="#" class="menu__link">Date de alta</a></li>
+          <li><a href="contacto.html" class="menu__link">Contacto</a></li>
+        </ul>
+
+        <div class="menu__user">
+          <img
+            src="src/images/user-regular.svg"
+            alt="Usuario"
+            class="menu__user-icon"
+          />
+        </div>
+      </nav>
+    </header>
+
+    <main class="contacto">
+      <h2 class="contacto__title">Formulario de contacto</h2>
+
+      <form action="" method="GET" class="contacto__form">
+
+        <label class="contacto__label">
+          Nombre:
+          <input type="text" name="nombre" class="contacto__input" required />
+        </label>
+
+        <label class="contacto__label">
+          Apellidos:
+          <input type="text" name="apellidos" class="contacto__input" required />
+        </label>
+
+        <label class="contacto__label">
+          Email:
+          <input type="email" name="email" class="contacto__input" required />
+        </label>
+
+        <label class="contacto__label">
+          Teléfono:
+          <input type="tel" name="telefono" class="contacto__input" />
+        </label>
+
+        <label class="contacto__label">
+          Motivo de contacto:
+          <select name="motivo" class="contacto__input" required>
+            <option value="">Selecciona una opción</option>
+            <option value="alta">Darme de alta</option>
+            <option value="soporte">Soporte técnico</option>
+            <option value="info">Solicitar información</option>
+            <option value="otro">Otro</option>
+          </select>
+        </label>
+
+        <label class="contacto__label">
+          Mensaje:
+          <textarea name="mensaje" class="contacto__textarea" rows="5" required></textarea>
+        </label>
+
+        <button type="submit" class="contacto__button">Enviar</button>
+
+      </form>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">
+        © 2026 Factoría — Proyecto de práctica HTML & CSS
+      </p>
+    </footer>
+  </body>
+</html>

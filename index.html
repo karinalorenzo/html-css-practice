@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Factoría – Página principal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="menu">
+        <div class="menu__left">
+          <img
+            src="src/images/F5Logo.jpg"
+            alt="Logo Factoría"
+            class="menu__logo"
+          />
+          <h1 class="menu__title">Factoría</h1>
+        </div>
+
+        <ul class="menu__links">
+          <li><a href="listado.html" class="menu__link">Películas</a></li>
+          <li><a href="#" class="menu__link">Series</a></li>
+          <li><a href="#" class="menu__link">Lo más visto</a></li>
+          <li><a href="#" class="menu__link">Date de alta</a></li>
+          <li><a href="contacto.html" class="menu__link">Contacto</a></li>
+        </ul>
+
+        <div class="menu__user">
+          <img
+            src="src/images/user-regular.svg"
+            alt="Usuario"
+            class="menu__user-icon"
+          />
+        </div>
+      </nav>
+    </header>
+
+    <main class="home">
+      <section class="peliculas">
+        <h2 class="peliculas__title">Películas</h2>
+
+        <div class="peliculas__slider">
+          <!-- BATMAN -->
+          <article class="pelicula">
+            <img
+              src="src/images/films/Batman.jpg"
+              alt="Batman"
+              class="pelicula__img"
+            />
+
+            <a href="detalle.html" class="pelicula__button">Batman</a>
+
+            <p class="pelicula__description">
+              Un vigilante marcado por su pasado intenta proteger Gotham de la
+              corrupción que la consume. Mientras la ciudad se hunde en el caos,
+              Batman descubre que la justicia exige sacrificios. Su lucha se
+              vuelve personal cuando el crimen amenaza todo lo que intenta
+              defender. Una historia oscura donde el miedo puede ser un arma o
+              una salvación.
+            </p>
+
+            <button class="pelicula__tag">12+ · Violencia · Tensión</button>
+          </article>
+
+          <!-- GLADIATOR -->
+          <article class="pelicula">
+            <img
+              src="src/images/films/Gladiator.jpg"
+              alt="Gladiator"
+              class="pelicula__img"
+            />
+
+            <!-- Botón sin enlace por ahora -->
+            <a href="#" class="pelicula__button">Gladiator</a>
+
+            <p class="pelicula__description">
+              Un general traicionado pierde todo lo que ama y es obligado a
+              luchar como esclavo. En la arena descubre una nueva forma de honor
+              y una oportunidad de justicia. Su fuerza inspira a un pueblo
+              cansado de la tiranía y el abuso de poder. Una historia de
+              venganza, dignidad y coraje frente al destino.
+            </p>
+
+            <button class="pelicula__tag">16+ · Violencia · Sangre</button>
+          </article>
+
+          <!-- INCEPTION -->
+          <article class="pelicula">
+            <img
+              src="src/images/films/inception.jpg"
+              alt="Inception"
+              class="pelicula__img"
+            />
+
+            <!-- Botón sin enlace por ahora -->
+            <a href="#" class="pelicula__button">Inception</a>
+
+            <p class="pelicula__description">
+              Un especialista en sueños se enfrenta a una misión que desafía la
+              lógica y la memoria. Para recuperar su vida, debe implantar una
+              idea sin que nadie lo perciba. Los límites entre realidad y
+              ficción se desdibujan mientras avanza la operación. Una aventura
+              mental donde cada decisión altera un mundo distinto.
+            </p>
+
+            <button class="pelicula__tag">
+              12+ · Tensión · Violencia leve
+            </button>
+          </article>
+
+          <!-- THE DARK KNIGHT -->
+          <article class="pelicula">
+            <img
+              src="src/images/films/The-Dark-Knight.jpg"
+              alt="The Dark Knight"
+              class="pelicula__img"
+            />
+
+            <!-- Botón sin enlace por ahora -->
+            <a href="#" class="pelicula__button">The Dark Knight</a>
+
+            <p class="pelicula__description">
+              Batman enfrenta a un criminal impredecible que quiere destruir el
+              orden de Gotham. El Joker desafía cada límite moral, obligando al
+              héroe a cuestionarse a sí mismo. La ciudad se convierte en un
+              tablero donde cada movimiento tiene consecuencias. Una lucha
+              intensa entre caos, justicia y sacrificio personal.
+            </p>
+
+            <button class="pelicula__tag">12+ · Violencia · Tensión</button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">
+        © 2026 Factoría — Proyecto de práctica HTML & CSS
+      </p>
+    </footer>
+  </body>
+</html>

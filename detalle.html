@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Batman – Factoría</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="menu">
+        <div class="menu__left">
+          <img
+            src="src/images/F5Logo.jpg"
+            alt="Logo Factoría"
+            class="menu__logo"
+          />
+          <h1 class="menu__title">Factoría</h1>
+        </div>
+
+        <ul class="menu__links">
+          <li><a href="index.html" class="menu__link">Inicio</a></li>
+          <li><a href="listado.html" class="menu__link">Películas</a></li>
+          <li><a href="listado.html" class="menu__link">Lo más visto</a></li>
+          <li><a href="contacto.html" class="menu__link">Date de alta</a></li>
+          <li><a href="contacto.html" class="menu__link">Contacto</a></li>
+        </ul>
+
+        <div class="menu__user">
+          <img
+            src="src/images/user-regular.svg"
+            alt="Usuario"
+            class="menu__user-icon"
+          />
+        </div>
+      </nav>
+    </header>
+
+    <main class="detalle">
+      <section class="detalle__hero">
+        <article class="detalle__card">
+          <div class="detalle__image-wrapper">
+            <img
+              src="src/images/films/Batman.jpg"
+              alt="Batman"
+              class="detalle__img"
+            />
+          </div>
+
+          <div class="detalle__info">
+            <h1 class="detalle__title">Batman</h1>
+            <p class="detalle__tagline">
+              Un vigilante marcado por su pasado intenta proteger Gotham de la corrupción que la consume.
+            </p>
+
+            <div class="detalle__meta">
+              <span class="detalle__age">12+</span>
+              <span class="detalle__dot">•</span>
+              <span class="detalle__genre">Acción · Superhéroes · Thriller</span>
+              <span class="detalle__dot">•</span>
+              <span class="detalle__duration">2h 20min</span>
+            </div>
+
+            <p class="detalle__description">
+              Batman patrulla las calles de Gotham intentando frenar el crimen que se extiende por la ciudad.
+              Mientras lucha contra villanos cada vez más peligrosos, también debe enfrentarse a sus propios
+              miedos y heridas del pasado. Su doble vida como Bruce Wayne y como vigilante lo obliga a tomar
+              decisiones difíciles, donde la línea entre justicia y venganza se vuelve cada vez más difusa.
+            </p>
+
+            <div class="detalle__video">
+              <iframe
+                width="100%"
+                height="315"
+                src="/src/video/BatmanTriller.mp4"
+                title="Trailer de Batman"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+
+            <a href="index.html" class="detalle__back">← Volver a la página principal</a>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">© 2026 Factoría — Proyecto de práctica HTML & CSS</p>
+    </footer>
+    
+  </body>
+</html>
